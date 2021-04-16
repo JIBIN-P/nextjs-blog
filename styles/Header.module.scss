@@ -1,0 +1,18 @@
+.Nav {
+  background: #444;
+  width: auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+
+  a {
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
