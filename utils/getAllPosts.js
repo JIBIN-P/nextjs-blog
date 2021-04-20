@@ -7,5 +7,5 @@ function importAll(r) {
 
 export const posts = importAll(
   // [directory to search in], [scan subdirectories too?], [regex for matching particular files or filetypes]
-  require.context("./pages/blog/", true, /\.mdx$/)
+  require.context("../pages/blog/", true, /\.mdx$/)
 );
